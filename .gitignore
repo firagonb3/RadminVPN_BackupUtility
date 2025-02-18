@@ -1,0 +1,3 @@
+backups/*.reg
+tools/downloader/*.*
+*.exe
