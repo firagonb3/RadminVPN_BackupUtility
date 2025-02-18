@@ -33,7 +33,7 @@ if (!(Test-Path -Path $configPath)) {
 
 # Asignar las variables desde la configuración
 $registryPath = $config.registryPath
-$backupPath = Join-Path -Path $PSScriptRoot -ChildPath $config.$backupPath
+$backupPath = Join-Path -Path $PSScriptRoot -ChildPath $config.backupPath
 $backupFilePath = "$($backupPath)\RadminVPN_Backup.reg"
 
 # Crear carpeta de backups si no existe

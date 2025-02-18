@@ -20,5 +20,5 @@ la versión oficial en inglés prevalecerá.
 
 @{
     registryPath = "HKLM\SOFTWARE\WOW6432Node\Famatech\RadminVPN\"
-    $backupPath  = "..\backups\"
+    backupPath  = "..\backups\"
 }
