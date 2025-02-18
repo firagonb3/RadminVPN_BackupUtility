@@ -46,10 +46,10 @@ REM Mover PsExec64.exe a la carpeta de herramientas
 if not exist "%DOWNLOADER_PATH_PSEXEC%" (
     echo Error: No se encontró PsExec64.exe después de la extracción.
     pause 
-    exit
+    exit /b
 )
 
-move /Y "%DOWNLOADER_PATH_PSEXEC%" "%PSEXEC_PATH%"
+move /Y "%DOWNLOADER_PATH_PSEXEC%" "%PSEXEC_PATH%">nul 2>&1
 echo PsExec64.exe movido a %PSEXEC_PATH%
 
 REM Preguntar si se desea eliminar el archivo ZIP

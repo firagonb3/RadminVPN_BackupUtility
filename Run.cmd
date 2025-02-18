@@ -17,6 +17,7 @@
 :: junto con este programa; si no, consulta <https://www.gnu.org/licenses/>.
 ::
 
+title RadminVPN Backup Utility
 chcp 65001 >nul
 set "SCRIPT_DIR=%~dp0"
 set "PSEXEC_PATH=%SCRIPT_DIR%tools\PsExec64.exe"

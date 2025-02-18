@@ -62,5 +62,5 @@ $acl.SetOwner($systemAccount)
 Set-Acl -Path "Registry::$registryPath" -AclObject $acl
 
 
-Write-Host "Backup completado. Archivo guardado en: $($config.$backupPath)"
+Write-Host "Backup completado. Archivo guardado en: $($config.backupPath)"
 Pause
